@@ -43,13 +43,13 @@ Alguns projetos interessantes desenvolvidos ao longo do curso técnico integrado
 
 ![Jogo Batalha Naval](public/assets/images/jogo-batalha-naval.png)
 
-➡️ Acesse o projeto clicando [aqui](projetos/web/jogo-batalha-naval).
+➡️ Acesse o projeto clicando [aqui](projetos/web/Jogo-batalha-naval).
 
 ### 🏷️ Jogo Runner
 
 ![Jogo Runner](public/assets/images/jogo-runner.png)
 
-➡️ Acesse o projeto clicando [aqui](projetos/web/jogo-batalha-naval).
+➡️ Acesse o projeto clicando [aqui](projetos/web/jogo-runner).
 
 ## 📃 Licença
 
