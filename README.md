@@ -12,27 +12,33 @@ Alguns projetos interessantes desenvolvido ao longo do curso técnico integrado 
 
 ![Encrypty Key](public/assets/images/encript-key.png)
 
-➡️ Acesse o projeto clicando [aqui](delphi/encripty-key/README.md).
+➡️ Acesse o projeto clicando [aqui](projetos/delphi/encripty-key/README.md).
 
 ### 🏷️ Jogo das Calorias
 
 ![Jogo das Calorias](public/assets/images/jogo-das-calorias.png)
 
-➡️ Acesse o projeto clicando [aqui](delphi/jogo-das-calorias/README.md).
+➡️ Acesse o projeto clicando [aqui](projetos/delphi/jogo-das-calorias/README.md).
 
 ### 🏷️ Jogo Super Física
 
 ![Jogo Super Física](public/assets/images/jogo-super-fisica.png)
 
-➡️ Acesse o projeto clicando [aqui](delphi/jogo-super-fisica/README.md).
+➡️ Acesse o projeto clicando [aqui](projetos/delphi/jogo-super-fisica/README.md).
 
 ## 🌍 Projetos WEB
 
 ### 🏷️ Jogo Batalha Naval
 
-![Jogo Jogo Batalha Naval](public/assets/images/jogo-batalha-naval.png)
+![Jogo Batalha Naval](public/assets/images/jogo-batalha-naval.png)
 
-➡️ Acesse o projeto clicando [aqui](delphi/jogo-batalha-naval/README.md).
+➡️ Acesse o projeto clicando [aqui](projetos/web/jogo-batalha-naval/README.md).
+
+### 🏷️ Jogo Runner
+
+![Jogo Runner](public/assets/images/jogo-runner.png)
+
+➡️ Acesse o projeto clicando [aqui](projetos/web/jogo-batalha-naval/README.md).
 
 ## 📃 Licença
 
