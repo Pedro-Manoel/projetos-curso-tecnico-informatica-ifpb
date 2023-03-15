@@ -1,0 +1,8 @@
+object uprincipal: Tuprincipal
+  Left = 378
+  Height = 370
+  Top = 181
+  Width = 595
+  Caption = 'Encript-Key'
+  LCLVersion = '1.6.0.4'
+end

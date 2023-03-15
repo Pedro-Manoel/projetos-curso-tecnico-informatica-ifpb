@@ -1,0 +1,165 @@
+/* CSS da página  */
+
+body{
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+
+td.escolha,.escolha-errada,.escolha-certa{
+    background-image: url('img/ondulacoes.jpg');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: red;
+    font-size: 0px;
+    font-weight: bold;
+    border:2px solid black;
+    height:72px;
+    width:75px;
+    text-align: center;
+}
+
+.escolha-certa{
+    background-image: url('img/explosion.jpg');
+    background-size: cover;
+    font-size: 0px;
+    pointer-events: none;
+}
+
+.escolha-errada{
+    background-image: url('img/error.png');
+    background-size: cover;
+    font-size: 0px;
+    pointer-events: none;
+}
+
+
+td.label{
+    color:#f9fdff;
+    font-size: 55px;
+    text-align: center;
+    padding: 6px;
+}
+
+
+td.escolha:hover{
+    font-size: 60px;
+}
+
+td.label:hover{
+    cursor: default;
+}
+
+table:hover{
+    cursor: crosshair;
+}
+
+section.central-jogo{
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 73px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+
+p.nome-jogo{
+    font-size: 35px;
+    background-color: #167676;
+}
+
+p.tentativas{
+    font-size: 35px;
+}
+
+p.tentativas span{
+    color: #11c46b;
+}
+
+p.acertos{
+    font-size: 35px;
+}
+
+p.acertos span{
+    color: #11c46b;
+}
+
+.input-disparo{
+    width: 75px;
+    font-size: 25px;
+    text-transform:uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.48);
+    color: white;
+    border:2px solid white;
+    
+}
+
+.label-coordenadas{
+    font-size: 35px;
+}
+
+.btn,.dispara,.jogar-novamente{
+    padding: 10px 0px 10px 0px;
+    display: block;
+    font-size: 25px;
+    margin: 8px;
+    position: relative;
+    left: 35%;
+    background-color: #ffffff;
+    border-style: none;
+    border-radius: 25px;
+    width: 152px;
+    color: black;
+}
+
+.dispara{
+   background-color: #c14646;
+   color: white;
+}
+
+.jogar-novamente{
+    background-color: #46c17f;
+    color: white;
+    width: 225px;
+    left: 29%;
+}
+
+.btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p.notificacao,p.notificacao-erro,p.notificacao-sucesso{
+    position: relative;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: none;
+}
+
+p.notificacao-erro{
+    color: #f54444;
+    display: block;
+    
+}
+
+p.notificacao-sucesso{
+    color: #25af74;
+    display: block;
+}
+
+
+

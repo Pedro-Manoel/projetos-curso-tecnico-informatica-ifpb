@@ -1,0 +1,219 @@
+object config: Tconfig
+  Left = 313
+  Height = 374
+  Top = 216
+  Width = 443
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Encript-Key'
+  ClientHeight = 374
+  ClientWidth = 443
+  Color = 2631720
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Label1: TLabel
+    Left = 0
+    Height = 49
+    Top = 0
+    Width = 443
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Configurações'
+    Color = 9274412
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -43
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Panel1: TPanel
+    Left = -24
+    Height = 480
+    Top = 48
+    Width = 856
+    Align = alCustom
+    BorderStyle = bsSingle
+    ClientHeight = 476
+    ClientWidth = 852
+    TabOrder = 0
+    object GroupBox1: TGroupBox
+      Left = 32
+      Height = 136
+      Top = 16
+      Width = 304
+      Caption = '/////'
+      ClientHeight = 116
+      ClientWidth = 300
+      TabOrder = 0
+      object Label2: TLabel
+        Left = 88
+        Height = 23
+        Top = 0
+        Width = 125
+        Caption = 'Salvar Arquivo'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clAqua
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Ra_salv1: TRadioButton
+        Left = 40
+        Height = 28
+        Top = 32
+        Width = 165
+        Caption = '                             '
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+      end
+      object Ra_salv2: TRadioButton
+        Left = 40
+        Height = 19
+        Top = 80
+        Width = 212
+        Caption = '                                                                '
+        TabOrder = 1
+      end
+      object Label3: TLabel
+        Left = 64
+        Height = 23
+        Top = 33
+        Width = 137
+        Caption = 'No mesmo local'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label5: TLabel
+        Left = 64
+        Height = 23
+        Top = 76
+        Width = 185
+        Caption = 'Em um local diferente'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object GroupBox2: TGroupBox
+      Left = 32
+      Height = 136
+      Top = 160
+      Width = 392
+      Caption = '/////'
+      ClientHeight = 116
+      ClientWidth = 388
+      TabOrder = 1
+      object Label6: TLabel
+        Left = 48
+        Height = 23
+        Top = 0
+        Width = 298
+        Caption = 'Excluir arquivo original apos salvar'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clAqua
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Ra_exl1: TRadioButton
+        Left = 40
+        Height = 28
+        Top = 32
+        Width = 70
+        Caption = '          '
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+      end
+      object Ra_exl2: TRadioButton
+        Left = 40
+        Height = 19
+        Top = 80
+        Width = 71
+        Caption = '                 '
+        TabOrder = 1
+      end
+      object Label7: TLabel
+        Left = 56
+        Height = 23
+        Top = 33
+        Width = 48
+        Caption = '   Sim'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label8: TLabel
+        Left = 69
+        Height = 23
+        Top = 76
+        Width = 35
+        Caption = 'Não'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Times New Roman'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+  object Label4: TLabel
+    Left = 64
+    Height = 23
+    Top = 68
+    Width = 185
+    Caption = 'Em um local diferente'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end

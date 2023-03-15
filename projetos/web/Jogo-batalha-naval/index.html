@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Batalha Naval</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main>
+        <!-- Tabuleiro do jogo -->
+        <table class="table-none">
+            <tr>
+                <td></td>
+                <td class="label" id="label-1">1</td>
+                <td class="label" id="label-2">2</td>
+                <td class="label" id="label-3">3</td>
+                <td class="label" id="label-4">4</td>
+                <td class="label" id="label-5">5</td>
+                <td class="label" id="label-6">6</td>
+                <td class="label" id="label-7">7</td>
+            </tr>
+            <tr>
+                <td class="label" id="label-A">A</td>
+                <td class="escolha" id="A1" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="A2" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="A3" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="A4" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="A5" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="A6" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="A7" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+            </tr>
+            <tr>
+                <td class="label" id="label-B">B</td>
+                <td class="escolha" id="B1" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="B2" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="B3" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="B4" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="B5" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="B6" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="B7" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+            </tr>
+            <tr>
+                <td class="label" id="label-C">C</td>
+                <td class="escolha" id="C1" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="C2" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="C3" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="C4" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="C5" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="C6" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="C7" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+            </tr>
+            <tr>
+                <td class="label" id="label-D">D</td>
+                <td class="escolha" id="D1" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="D2" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="D3" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="D4" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="D5" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="D6" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="D7" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+            </tr>
+            <tr>
+                <td class="label" id="label-E">E</td>
+                <td class="escolha" id="E1" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="E2" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="E3" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="E4" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="E5" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="E6" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="E7" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+            </tr>
+            <tr>
+                <td class="label" id="label-F">F</td>
+                <td class="escolha" id="F1" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="F2" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="F3" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="F4" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="F5" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="F6" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="F7" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+            </tr>
+            <tr>
+                <td class="label" id="label-G">G</td>
+                <td class="escolha" id="G1" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="G2" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="G3" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="G4" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="G5" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="G6" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+                <td class="escolha" id="G7" onclick="batalhaNaval.disparar(this.id)" onmousemove="batalhaNaval.view.animatON(this.id)" onmouseout="batalhaNaval.view.animatOFF(this.id)">*</td>
+            </tr>                
+        </table>
+        <!-- Central de informações sobre o jogo -->
+        <section class="central-jogo">
+            <header>
+                <p class="nome-jogo">Batalha Naval</p>
+            </header>
+            <section>
+                <p class="tentativas">Disparos restantes: <span id="disparos">0</span></p>
+                <p class="acertos">Partes de embarcações destruidas: <span id="acertos"> 0</span></p>
+                <label  for="coordenadas" class="label-coordenadas">Coordenadas para o disparo:</label>
+                <input id="coordenadas" class="input-disparo" type="text" maxlength="2">
+                <button class="btn dispara" onclick="batalhaNaval.btnJogo()" id="btn-escolha">Disparar</button>
+            </section>
+            <footer>
+                <p class="notificacao" id="notificacao"></p>
+            </footer>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

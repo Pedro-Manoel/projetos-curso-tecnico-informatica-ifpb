@@ -1,0 +1,9 @@
+object Form1: TForm1
+  Left = 452
+  Height = 327
+  Top = 177
+  Width = 466
+  Caption = 'Créditos'
+  Color = 2631720
+  LCLVersion = '1.6.0.4'
+end

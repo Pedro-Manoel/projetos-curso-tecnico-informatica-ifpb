@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Tags meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Título da página -->
+    <title>Jogo do Dinossauro</title>
+
+    <!-- Tags link -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body  onkeydown="gameEngine.clickTecla()" onkeyup="gameEngine.soltaTecla()">
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Canvas do jogo -->
+        <canvas id="canvas" class="center" height="600" width="1000"></canvas>
+    </main>
+    <!-- Tags script -->
+        <!-- Importando Classes Utilitárias -->
+    <script src="scripts/classes/utilitarias/Posicao.js"></script>
+    <script src="scripts/classes/utilitarias/Dimensao.js"></script>
+    <script src="scripts/classes/utilitarias/Fisica.js"></script>
+    <script src="scripts/classes/utilitarias/Sprite.js"></script>
+    <script src="scripts/classes/utilitarias/SpriteSheet.js"></script>
+    <script src="scripts/classes/utilitarias/AnimacaoSprite.js"></script>
+    <script src="scripts/classes/utilitarias/Teclado.js"></script>
+    <script src="scripts/classes/utilitarias/Canvas.js"></script>
+
+        <!-- Importando Classes Principais -->
+    <script src="scripts/classes/principais/Cenario.js"></script>
+    <script src="scripts/classes/principais/Chao.js"></script>
+    <script src="scripts/classes/principais/Personagem.js"></script>
+    <script src="scripts/classes/principais/GameEngine.js"></script>
+    <script src="scripts/classes/principais/Obstaculo.js"></script>
+
+        <!--Importando Main-->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
