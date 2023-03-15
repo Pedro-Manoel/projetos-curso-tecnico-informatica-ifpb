@@ -1,5 +1,5 @@
 <h1 align="center">
-    <p>  Projetos Curso Técnico Informática IFPB-CG </p>
+    <p>  🎓 Projetos Curso Técnico Informática IFPB-CG </p>
 </h1>
 
 <p align="center">
